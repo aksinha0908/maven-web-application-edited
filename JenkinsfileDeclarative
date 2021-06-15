@@ -22,7 +22,7 @@ options{
    stage('CheckoutCode')
    {
      steps{
-	 git branch: 'development', credentialsId: '8e348aa2-9531-4dbe-863d-1adb64897470', url: 'https://github.com/MithunTechnologiesDevOps/maven-web-application.git'
+	 git branch: 'development', url: 'https://github.com/aksinha0908/maven-web-application-edited.git'
 	 }
    }
    
@@ -68,15 +68,15 @@ options{
 
  Regards,
  Mithun Technologies,
- 9980923226''', cc: 'devopstrainingblr@gmail.com', from: '', replyTo: '', subject: 'BuildOver!!', to: 'devopstrainingblr@gmail.com'
+ 7204526232''', cc: 'amitsinhadevops@gmail.com', from: '', replyTo: '', subject: 'BuildOver!!', to: 'amitsinhadevops@gmail.com'
  }
  
  failure{
- mail bcc: 'devopstrainingblr@gmail.com', body: '''BuildOver!....
+ mail bcc: 'amitsinhadevops@gmail.com', body: '''BuildOver!....
 
  Regards,
  Mithun Technologies,
- 9980923226''', cc: 'devopstrainingblr@gmail.com', from: '', replyTo: '', subject: 'BuildOver!!', to: 'devopstrainingblr@gmail.com'
+ 9980923226''', cc: 'amitsinhadevops@gmail.com', from: '', replyTo: '', subject: 'BuildOver!!', to: 'amitsinhadevops@gmail.com'
  }
  
  }
